@@ -1,0 +1,12 @@
+{
+  "name": "Jupyter Notebook",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  }
+}
