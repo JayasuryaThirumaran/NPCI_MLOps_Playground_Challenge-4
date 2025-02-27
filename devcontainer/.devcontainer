@@ -1,5 +1,5 @@
 {
-  "name": "Jupyter Notebok",
+  "name": "Jupyter Notebook",
   "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
   "extensions": [
     "ms-python.python",
